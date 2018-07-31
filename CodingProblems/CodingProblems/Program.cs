@@ -1,4 +1,5 @@
-﻿using System;
+﻿using CodingProblems.Arrays;
+using System;
 
 namespace CodingProblems
 {
@@ -6,7 +7,18 @@ namespace CodingProblems
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+
+            var obj = new LargestElementArray();
+            //obj.Find();
+
+            var obj2 = new MaxMinArray();
+            //obj2.Find();
+
+            var obj3 = new SecondLargest();
+            obj3.Find();
+
+
+            Console.ReadLine();
         }
     }
 }
